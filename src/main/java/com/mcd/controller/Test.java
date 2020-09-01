@@ -29,7 +29,7 @@ public class Test {
     @GetMapping("/mcd1")
     @ResponseBody
     public String a1(HttpServletResponse response)  {
-        response.setHeader("Access-Control-Allow-Origin", "*");
+        response.setHeader("Access-Control-Allow-Origin","*");
         List<Books> books = booksService.selAll();
         String booksJson = JSON.toJSONString(books);
         System.out.println("mcd1");
