@@ -8,6 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
 @ComponentScan("com.mcd.mapper")
 @ComponentScan("com.mcd.controller")
 @ComponentScan("com.mcd.mapper")
+@ComponentScan("com.mcd.config")
 //@MapperScan("com/mcd/mapper/*")
 public class Application {
 

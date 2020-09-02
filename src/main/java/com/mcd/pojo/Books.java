@@ -28,4 +28,13 @@ public class Books {
     public void setBookCounts(Integer bookCounts) {
         this.bookCounts = bookCounts;
     }
+
+    @Override
+    public String toString() {
+        return "Books{" +
+                "bookID=" + bookID +
+                ", bookName='" + bookName + '\'' +
+                ", bookCounts=" + bookCounts +
+                '}';
+    }
 }
